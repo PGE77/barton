@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+      "*.less": "less"
+    },
+    "less.validate": false,
+    "less.linting.enabled": true,
+    "less.linting.include": ["**/*.less"]
+    
+  }

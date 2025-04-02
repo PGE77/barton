@@ -1,0 +1,30 @@
+.navbar {
+  background: #1f464d;
+  width: 100%;
+}
+.navbar nav {
+  max-width: 1280px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 15px;
+}
+.navbar nav ul {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.navbar nav ul li {
+  list-style-type: none;
+}
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar nav ul li a:hover,
+.navbar nav ul li a:focus {
+  color: azure;
+}
