@@ -14,6 +14,8 @@
  
     `npm run build`
 
+**Web najdete na adres http://localhost:3000**
+
 
 **Veškeré příkazy naleznete v package.json**
 

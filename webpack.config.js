@@ -18,8 +18,16 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,  // Extrahuje CSS do samostatného souboru
           'css-loader',  // Zpracovává CSS
-          'less-loader',  // Zpracovává LESS soubory
+          {
+            loader: 'less-loader',
+            options: {
+              lessOptions: {
+                prependData: `@import "src/styles/base/variables.less";`, // Připojí proměnné ke všem souborům
+              },
+            },
+          },
         ],
+    
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg)$/i,  // Zpracování obrázků
