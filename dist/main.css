@@ -71,19 +71,6 @@ p {
   letter-spacing: 3px;
   margin-top: 25px;
 }
-footer {
-  padding: 25px 0px;
-}
-footer p {
-  text-align: center;
-  color: white;
-  font-size: 18px;
-}
-.container {
-  max-width: 1280px;
-  margin: 0px auto;
-  padding: 0px 15px;
-}
 .header .container {
   min-height: 90vh;
   display: flex;
@@ -117,6 +104,19 @@ footer p {
 }
 .header .cover-photo img {
   height: 450px;
+}
+footer {
+  padding: 25px 0px;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
 .homepage {
   padding-bottom: 200px;
